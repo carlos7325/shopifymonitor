@@ -1,0 +1,47 @@
+{
+    "interval": 1000,
+    "serverPort": 1337,
+    "autoRetryOnCrash": true,
+    "notifyWhenNewItemsFound": true,
+    "notifyWhenOnKeywordMatch": true,
+    "noImageURL": "http://i.imgur.com/MdsG0Po.png",
+    "notify": {
+        "new": false,
+        "restocks": true,
+        "keywords": true
+    },
+    "slackBot": {
+        "active": true,
+        "token": "xoxb-133251486097-5UL0c2gY8PgbwNceNJe2TSzR",
+        "channel": "cumanzor115",
+        "settings": {
+            "username": "shopifymonitortalk",
+            "icon_url": "http://i.imgur.com/zks3PoZ.png"
+        }
+    },
+    "twitter": {
+        "active": false,
+        "encodeImages": false,
+        "consumer_key": "consumer key goes here",
+        "consumer_secret": "consumer secret goes here",
+        "access_token": "access token over here",
+        "access_token_secret": "access token secret here"
+    },
+    "sites": [
+        "https://shop-usa.palaceskateboards.com/sitemap_products_1.xml",
+        "http://kithnyc.com/sitemap_products_1.xml"
+        "eastbay",
+        "assc",
+        "palace",
+        "adidas",
+        "footlocker",
+        "footaction",
+        "bodega".
+         
+    ],
+    "keywords": [
+        "nmd",
+        "ultraboost",
+        "yeezy"
+    ]
+}
